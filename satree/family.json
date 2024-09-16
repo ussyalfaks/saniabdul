@@ -1,0 +1,57 @@
+{
+  "Sani": {
+    "children": [
+      {
+        "name": "Amina",
+        "gender": "Female",
+        "dateOfBirth": "1985-06-15",
+        "status": "living",
+        "grandchildren": [
+          {
+            "name": "Ali",
+            "gender": "Male",
+            "status": "living",
+            "children": [
+              { 
+                "name": "Umar", 
+                "gender": "Male", 
+                "status": "living" 
+              },
+              { 
+                "name": "Zainab", 
+                "gender": "Female", 
+                "status": "deceased" 
+              }
+            ]
+          },
+          {
+            "name": "Fatima",
+            "gender": "Female",
+            "status": "deceased",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Abdullahi",
+        "gender": "Male",
+        "dateOfBirth": "1983-09-10",
+        "status": "deceased",
+        "grandchildren": [
+          {
+            "name": "Umar",
+            "gender": "Male",
+            "status": "living",
+            "children": [
+              { 
+                "name": "Suleiman", 
+                "gender": "Male", 
+                "status": "living" 
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
