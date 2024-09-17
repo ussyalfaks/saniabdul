@@ -230,7 +230,7 @@ const EnhancedFamilyForm = () => {
                         name="name"
                         value={greatGrandchild.name}
                         onChange={(e) => handleGreatGrandchildChange(childIndex, grandchildIndex, greatGrandchildIndex, e)}
-                        className="flex-grow rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                        className="flex-grow p-3 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                         placeholder="Name"
                       />
                       <input
@@ -238,14 +238,14 @@ const EnhancedFamilyForm = () => {
                         name="gender"
                         value={greatGrandchild.gender}
                         onChange={(e) => handleGreatGrandchildChange(childIndex, grandchildIndex, greatGrandchildIndex, e)}
-                        className="w-24 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                        className="w-24 p-3 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                         placeholder="Gender"
                       />
                       <select
                         name="status"
                         value={greatGrandchild.status}
                         onChange={(e) => handleGreatGrandchildChange(childIndex, grandchildIndex, greatGrandchildIndex, e)}
-                        className="w-28 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                        className="w-28 p-3 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                       >
                         <option value="">Status</option>
                         <option value="living">Living</option>

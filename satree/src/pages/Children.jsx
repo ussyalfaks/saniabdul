@@ -9,12 +9,10 @@ const Children = () => {
   // Fetch Sani's children data from the JSON API or a file
   useEffect(() => {
     axios.get('http://localhost:3000/Sani') // Replace with your API endpoint or file path
-      .then(response => {
-        setChildren(response.data.Sani.children);
-      })
-      .catch(error => {
-        console.error('Error fetching the data:', error);
-      });
+      .then(res => setChildren(res.data.Sani?.children || []))
+      .catch(error => 
+        console.error('Error fetching the data:', error)
+      );
   }, []);
 
   const handleViewDetails = (child) => {
