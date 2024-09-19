@@ -45,7 +45,7 @@ const Children = () => {
   const handleViewDetails = (child) => {
     navigate(`/children/${child.id}`, { state: { child } });
   };
-
+ 
   if (loading) return <div className="text-center">Loading...</div>;
   if (error) return <div className="text-center text-red-600">{error}</div>;
 
