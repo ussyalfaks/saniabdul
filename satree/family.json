@@ -1,57 +1,209 @@
 {
-  "Sani": {
-    "children": [
-      {
-        "name": "Amina",
-        "gender": "Female",
-        "dateOfBirth": "1985-06-15",
-        "status": "living",
-        "grandchildren": [
-          {
-            "name": "Ali",
-            "gender": "Male",
-            "status": "living",
-            "children": [
-              { 
-                "name": "Umar", 
-                "gender": "Male", 
-                "status": "living" 
-              },
-              { 
-                "name": "Zainab", 
-                "gender": "Female", 
-                "status": "deceased" 
-              }
-            ]
-          },
-          {
-            "name": "Fatima",
-            "gender": "Female",
-            "status": "deceased",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "Abdullahi",
-        "gender": "Male",
-        "dateOfBirth": "1983-09-10",
-        "status": "deceased",
-        "grandchildren": [
-          {
-            "name": "Umar",
-            "gender": "Male",
-            "status": "living",
-            "children": [
-              { 
-                "name": "Suleiman", 
-                "gender": "Male", 
-                "status": "living" 
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+  "children": [
+    {
+      "name": "Amina",
+      "gender": "Female",
+      "dateOfBirth": "1985-06-15",
+      "status": "living",
+      "grandchildren": [
+        {
+          "name": "Ali",
+          "gender": "Male",
+          "status": "living",
+          "children": [
+            {
+              "name": "Umar",
+              "gender": "Male",
+              "status": "living"
+            },
+            {
+              "name": "Zainab",
+              "gender": "Female",
+              "status": "deceased"
+            }
+          ]
+        },
+        {
+          "name": "Fatima",
+          "gender": "Female",
+          "status": "deceased",
+          "children": []
+        }
+      ],
+      "id": "1e31"
+    },
+    {
+      "name": "Abdullahi",
+      "gender": "Male",
+      "dateOfBirth": "1983-09-10",
+      "status": "deceased",
+      "grandchildren": [
+        {
+          "name": "Umar",
+          "gender": "Male",
+          "status": "living",
+          "children": [
+            {
+              "name": "Suleiman",
+              "gender": "Male",
+              "status": "living"
+            }
+          ]
+        }
+      ],
+      "id": "973e"
+    },
+    {
+      "id": "3e9c",
+      "children": [
+        {
+          "name": "",
+          "gender": "",
+          "dateOfBirth": "",
+          "status": "",
+          "grandchildren": [
+            {
+              "name": "",
+              "gender": "",
+              "status": "",
+              "children": [
+                {
+                  "name": "",
+                  "gender": "",
+                  "status": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "umar jika",
+      "gender": "male",
+      "dateOfBirth": "2024-09-05",
+      "status": "yamutu"
+    },
+    {
+      "id": "a53f",
+      "children": [
+        {
+          "name": "",
+          "gender": "",
+          "dateOfBirth": "",
+          "status": "",
+          "grandchildren": [
+            {
+              "name": "",
+              "gender": "",
+              "status": "",
+              "children": [
+                {
+                  "name": "",
+                  "gender": "",
+                  "status": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "sadiya jika",
+      "gender": "female",
+      "dateOfBirth": "2024-09-04",
+      "status": "yamutu"
+    },
+    {
+      "id": "341d",
+      "name": "sahuk",
+      "gender": "sahuk",
+      "dateOfBirth": "2024-09-03",
+      "status": "sahuk",
+      "grandchildren": [
+        {
+          "name": "sahuk jika",
+          "gender": "sahuk jika",
+          "status": "sahuk jika",
+          "children": [
+            {
+              "name": "jika sahuk",
+              "gender": "sahuk kkk",
+              "status": "sahuk kkk"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6ca7",
+      "name": "colab 0n2",
+      "gender": "male",
+      "dateOfBirth": "2024-09-05",
+      "status": "",
+      "grandchildren": [
+        {
+          "name": "colab 3",
+          "gender": "male ",
+          "status": "liniv",
+          "children": [
+            {
+              "name": "assessment-phase",
+              "gender": "male",
+              "status": "diee"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "23c0",
+      "name": "slam",
+      "gender": "male",
+      "dateOfBirth": "2024-09-14",
+      "status": "living",
+      "grandchildren": [
+        {
+          "name": "slam2",
+          "gender": "male",
+          "status": "living",
+          "children": [
+            {
+              "name": "slam 3",
+              "gender": "male",
+              "status": "living"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "581f",
+      "name": "slam 4",
+      "gender": "male",
+      "dateOfBirth": "2024-09-14",
+      "status": "living",
+      "grandchildren": [
+        {
+          "name": "slam 78",
+          "gender": "male",
+          "status": "living",
+          "children": [
+            {
+              "name": "slam 000",
+              "gender": "male",
+              "status": "living"
+            },
+            {
+              "name": "slam9090",
+              "gender": "male",
+              "status": "living"
+            },
+            {
+              "name": "slam838383",
+              "gender": "male",
+              "status": "living"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

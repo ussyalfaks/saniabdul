@@ -4,7 +4,7 @@ import Layout from './components/Layout';
 import Dashboard from './pages/Dashboard';
 import Children from './pages/Children';
 import ChildrenDetails from './pages/ChildrenDetails'; // This should be the component for viewing individual child details
-import FamilyForm from './components/FamilyForm';
+import Form from './pages/Form';
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/children" element={<Children />} />
-          <Route path="/children/:id" element={<ChildrenDetails />} /> {/* Render ChildrenDetails for specific child */}
-          <Route path="/familyForm" element={<FamilyForm />} /> {/* Added missing slash */}
+          <Route path="/children/:id" element={<ChildrenDetails />} /> 
+          <Route path="/Form" element={<Form />} /> 
         </Routes>
       </Layout>
     </Router>
