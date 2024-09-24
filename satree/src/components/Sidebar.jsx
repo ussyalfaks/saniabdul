@@ -12,6 +12,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
     // { path: '/ChildrenDetails', name: 'Children Details', icon: FileText },
     // { path: '/FamilyForm', name: 'Family Form', icon: FormInput },
     { path: '/Form', name: 'Form', icon: FormInput },
+    { path: '/Login', name: 'Login', icon: FormInput },
   ];
 
   return (

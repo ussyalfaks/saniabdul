@@ -5,6 +5,7 @@ import Dashboard from './pages/Dashboard';
 import Children from './pages/Children';
 import ChildrenDetails from './pages/ChildrenDetails'; // This should be the component for viewing individual child details
 import Form from './pages/Form';
+import Login from './components/login';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/children" element={<Children />} />
           <Route path="/children/:id" element={<ChildrenDetails />} /> 
           <Route path="/Form" element={<Form />} /> 
+          <Route path="/Login" element={<Login />} /> 
         </Routes>
       </Layout>
     </Router>

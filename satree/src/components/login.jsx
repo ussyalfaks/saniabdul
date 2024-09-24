@@ -13,9 +13,9 @@ export default function LoginForm() {
 //   }
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gradient-to-br from-blue-100 to-indigo-100">
+    <div className="flex justify-center items-center min-h-screen ">
       <div className="w-full max-w-md">
-        <form onSubmit={handleSubmit} className="bg-white shadow-2xl rounded-lg px-8 pt-6 pb-8 mb-4 transform transition-all duration-300 ease-in-out hover:scale-105">
+        <form className="bg-white shadow-2xl rounded-lg px-8 pt-6 pb-8 mb-4 transform transition-all duration-300 ease-in-out hover:scale-105">
           <h2 className="text-3xl font-extrabold mb-6 text-center text-gray-800">Welcome Back</h2>
           <p className="text-center text-gray-600 mb-8">Enter your credentials to access your account</p>
           
@@ -96,24 +96,24 @@ export default function LoginForm() {
           
           <div className="mb-6">
             <button
-              className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg focus:outline-none focus:shadow-outline transform transition-all duration-300 ease-in-out hover:scale-105"
+              className="w-full bg-black hover:bg-gray-800 text-white font-bold py-3 px-4 rounded-lg focus:outline-none focus:shadow-outline transform transition-all duration-300 ease-in-out hover:scale-105"
               type="submit"
             >
               Sign In
             </button>
           </div>
           
-          <div className="flex items-center justify-between mb-6">
+          {/* <div className="flex items-center justify-between mb-6">
             <a className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800 transition-colors duration-300" href="#">
               Forgot Password?
             </a>
             <a className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800 transition-colors duration-300" href="#">
               Sign up
             </a>
-          </div>
+          </div> */}
         </form>
         <p className="text-center text-gray-500 text-xs">
-          &copy;2023 YourCompany. All rights reserved.
+          &copy;2024 SA Family. All rights reserved.
         </p>
       </div>
     </div>
