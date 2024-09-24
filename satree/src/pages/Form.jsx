@@ -13,7 +13,11 @@ const Form = () => {
         name: '',
         gender: '',
         status: '',
-        children: [{ name: '', gender: '', status: '' }]
+        children: [
+          { name: '', 
+            gender: '', 
+            status: '' }
+        ]
       }
     ]
   });

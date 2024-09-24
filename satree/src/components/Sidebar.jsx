@@ -9,7 +9,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
   const menuItems = [
     { path: '/', name: 'Dashboard', icon: Home },
     { path: '/Children', name: 'Children', icon: Users },
-    { path: '/ChildrenDetails', name: 'Children Details', icon: FileText },
+    // { path: '/ChildrenDetails', name: 'Children Details', icon: FileText },
     // { path: '/FamilyForm', name: 'Family Form', icon: FormInput },
     { path: '/Form', name: 'Form', icon: FormInput },
   ];
